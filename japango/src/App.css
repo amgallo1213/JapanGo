@@ -1,9 +1,9 @@
-* {
-  box-sizing: border-box;
-}
+/* font-family: 'Archivo Black', sans-serif;
+font-family: 'Roboto', sans-serif; */
 
 .header {
   position: fixed;
+  z-index: 1;
   top: 0;
   width: 100%;
   height: 100px;
@@ -11,10 +11,24 @@
   flex-direction: row;
   justify-content: space-around;
   color: #FFFFFF;
+  border-bottom-color: #FFFFFF;
+  border-bottom: 1px solid;
 }
 
 #mainImg  {
   height: 100vh;
   width: 100vw;
+  z-index: 0;
+  /* position: fixed; */
+}
 
+h1  {
+  font-weight: 500;
+  position: absolute;
+  /* color: red; */
+  color: #FFFFFF;
+  z-index: 2;
+  left: 4em;
+  top: .5em;
+  font-size: 16rem;
 }
