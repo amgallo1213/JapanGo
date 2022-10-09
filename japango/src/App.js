@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import HeroImg from './components/Hero';
+import Explore from './components/Explore';
 
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
     <div >
       <Header />
       <HeroImg />
+      <Explore />
+      
     </div>
   );
 }

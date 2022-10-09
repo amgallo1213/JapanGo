@@ -32,3 +32,35 @@ h1  {
   top: .5em;
   font-size: 16rem;
 }
+
+
+
+.grid { 
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 10px;
+  align-items: start;
+  justify-items: center;
+  margin: auto;
+  width: 50%;
+  height: auto; */
+
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  }
+
+
+@media (min-width: 600px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
+
+  .photoName  {
+    color: #FF0075;
+  }
